@@ -10,3 +10,18 @@ body {
 .logo img {
 	width: 10%;
 }
+
+.logo p {
+	font-size: 0.8em;
+    color: #3e3e3e;
+}
+
+.flexbox {
+	display: -webkit-box;
+    display: -moz-box; 
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    -webkit-box-align: center;  
+    -moz-box-align: center;  
+}
