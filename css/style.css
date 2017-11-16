@@ -16,12 +16,13 @@ body {
     color: #3e3e3e;
 }
 
-.flexbox {
-	display: -webkit-box;
-    display: -moz-box; 
-    display: -ms-flexbox;
+.flex-container {
     display: -webkit-flex;
-    display: flex; 
-    -webkit-box-align: center;  
-    -moz-box-align: center;  
+    display: flex;
+    -webkit-justify-content: center;  /*水平居中*/
+    justify-content: center;
+    -webkit-align-items: center; /*垂直居中*/
+    align-items: center;
+    width: 400px;
+    height: 250px;
 }
