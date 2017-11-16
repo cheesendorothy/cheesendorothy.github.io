@@ -4,6 +4,9 @@ body {
 
 .logo {
 	text-align: center;
-	width: 80%;
 	margin: 0 auto;
+}
+
+.logo img {
+	width: 10%;
 }
